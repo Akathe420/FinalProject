@@ -1,8 +1,0 @@
-192.168.65.1 - - [11/Feb/2024:20:33:08 +0000] "GET / HTTP/1.1" 500 177 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15"
-192.168.65.1 - - [11/Feb/2024:20:35:09 +0000] "GET / HTTP/1.1" 200 1398 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15"
-192.168.65.1 - - [11/Feb/2024:20:35:09 +0000] "GET /assets/php.png HTTP/1.1" 200 80678 "http://localhost:8001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15"
-192.168.65.1 - - [11/Feb/2024:20:35:27 +0000] "GET / HTTP/1.1" 200 1259 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15"
-192.168.65.1 - - [11/Feb/2024:20:35:38 +0000] "GET / HTTP/1.1" 200 1259 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15"
-192.168.65.1 - - [13/May/2024:22:29:09 +0000] "GET / HTTP/1.1" 200 1259 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15"
-172.22.0.1 - - [08/Oct/2024:16:10:31 +0000] "GET / HTTP/1.1" 200 1289 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
-172.22.0.1 - - [08/Oct/2024:16:10:32 +0000] "GET /favicon.ico HTTP/1.1" 200 1289 "http://localhost:8001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
