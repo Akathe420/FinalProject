@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "c26c8cc3-e44a-48b5-8f22-18d26d770ed0",
+		"name": "Function Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37000049"
+	},
+	"item": [
+		{
+			"name": "Add Product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{token}}",
+						"type": "text"
+					},
+					{
+						"key": "x-api-user",
+						"value": "{{user}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "serial\n",
+							"value": "KHSB00012",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Smart Bulb 0012",
+							"type": "text"
+						},
+						{
+							"key": "warrantyLength",
+							"value": "12",
+							"type": "text"
+						},
+						{
+							"key": "accessLevel",
+							"value": "admin",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/kahuna/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"kahuna",
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product List",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{token}}",
+						"type": "text"
+					},
+					{
+						"key": "x-api-user",
+						"value": "{{user}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/kahuna/api/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"kahuna",
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{token}}",
+						"type": "text"
+					},
+					{
+						"key": "x-api-user",
+						"value": "{{user}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "serial",
+							"value": "KHWP890001",
+							"type": "text"
+						},
+						{
+							"key": "accessLevel",
+							"value": "user",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URI}}product",
+					"host": [
+						"{{BASE_URI}}product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
