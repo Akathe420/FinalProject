@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "d746f9bf-ddfc-4e36-bf70-c914e6fc3683",
+		"name": "User Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37000049"
+	},
+	"item": [
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "final@testing.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "finaltest",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "Final",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/kahuna/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"kahuna",
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "final@testadmin.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "finaltest",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "Final",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "AdminTest",
+							"type": "text"
+						},
+						{
+							"key": "accessLevel",
+							"value": "admin",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/kahuna/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"kahuna",
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
